@@ -8,10 +8,11 @@
 
 .wd-modules {
     margin: 5px;
+    border: none;
 }
 
 .wd-modules>li {
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
     border: 1px solid gray !important;
     border-left: none !important;
 }
