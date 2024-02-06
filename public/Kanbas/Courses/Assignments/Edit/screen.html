@@ -2,6 +2,7 @@
   <head>
     <link rel="stylesheet" href="/Kanbas/styles.css" />
     <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,15 +22,16 @@
 
               <li>
                 <a href="/Kanbas/Account/Profile/screen.html"
-                  ><i class="fa fa-user-circle-o"></i> Account</a
+                  ><i class="fa fa-user-circle-o" style="color: LightGray"></i>
+                  Account</a
                 >
               </li>
-              <li class="wd-active">
+              <li>
                 <a href="/Kanbas/Dashboard/screen.html">
                   <i class="fa fa-tachometer"></i> Dashboard</a
                 >
               </li>
-              <li>
+              <li class="wd-active">
                 <a href="/Kanbas/Courses/Home/screen.html"
                   ><i class="fa fa-book" aria-hidden="true"></i> Courses</a
                 >
@@ -69,8 +71,10 @@
             </ul>
           </td>
           <td style="vertical-align: top">
-            <ul>
-              <li><a href="/Kanbas/Courses/Home/screen.html"> Home</a></li>
+            <ul class="wd-navigation">
+              <li>
+                <a href="/Kanbas/Courses/Home/screen.html"> Home</a>
+              </li>
               <li>
                 <a href="/Kanbas/Courses/Modules/screen.html"> Modules</a>
               </li>
@@ -80,7 +84,7 @@
                   Zoom Meetings</a
                 >
               </li>
-              <li>
+              <li class="wd-active">
                 <a href="/Kanbas/Courses/Assignments/screen.html">
                   Assignments</a
                 >
