@@ -34,10 +34,10 @@
 
 .module-button {
     padding: 8px;
+    margin: 2px;
     border-radius: 4px;
     box-shadow: none;
     border: none;
-    margin: 4px;
 }
 
 .bg-color-lightgrey {
@@ -48,6 +48,22 @@
     background-color: rgb(212, 26, 43);
 }
 
+.bg-color-lightgreen {
+    background-color: rgb(159, 193, 154);
+}
+
 .fg-color-white {
     color: white;
+}
+
+.fg-color-red {
+    color: red;
+}
+
+.button-left {
+    text-align: left;
+}
+
+.width-230 {
+    width: 230px;
 }
