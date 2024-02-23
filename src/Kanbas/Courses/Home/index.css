@@ -1,0 +1,40 @@
+#top-bar {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    vertical-align: middle;
+}
+
+.top-bar-button {
+    color: white;
+    size: 24;
+}
+
+.top-bar-text {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#kanbas-nav-fill {
+    width: 100%;
+    background-color: white;
+}
+
+.grey-text {
+    color: grey
+}
+
+.todo-item {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.width-250 {
+    width: 250;
+}
+
+.width-300 {
+    width: 300;
+}
