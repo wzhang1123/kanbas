@@ -1,0 +1,23 @@
+.mid-button {
+    padding: 8px;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+}
+
+.mid-searchbox {
+    padding: 8px;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: none;
+    border-color: grey;
+}
+
+.red-bg {
+    background-color: red;
+}
+
+.white-fg {
+    color: white;
+}

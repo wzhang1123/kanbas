@@ -6,6 +6,7 @@ import "./index.css";
 import { FaChevronRight } from "react-icons/fa";
 import Modules from "./Modules";
 import Home from "./Home";
+import Assignments from "./Assignments";
 
 function Courses() {
   const { courseId } = useParams();
@@ -56,7 +57,7 @@ function Courses() {
 
             <Route path="Modules" element={<Modules />} />
             <Route path="Piazza" element={<h1>Piazza</h1>} />
-            <Route path="Assignments" element={<h1>Assignments</h1>} />
+            <Route path="Assignments" element={<Assignments />} />
             <Route
               path="Assignments/:assignmentId"
               element={<h1>Assignment Editor</h1>}
