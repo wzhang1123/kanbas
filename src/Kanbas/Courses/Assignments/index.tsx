@@ -10,7 +10,6 @@ function Assignments() {
   );
   return (
     <>
-      {/* {<!-- Add buttons and other fields here -->} */}
       <div className="row">
         <div className="col">
           <input
