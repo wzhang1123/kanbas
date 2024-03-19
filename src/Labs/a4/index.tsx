@@ -19,6 +19,7 @@ function Assignment4() {
   return (
     <div>
       <h1>Assignment 4</h1>
+      <ReduxExamples />
       <PassingFunctions theFunction={sayHello} />
       <EventObject />
       <Counter />
